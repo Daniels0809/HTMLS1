@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <meta name="description" content="Personal portfolio of Daniel Ospina as a Riwi developer.">
+</head> 
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    <h1>Daniel Ospina Pareja - Riwi developer</h1>
+    <nav role="navigation" aria-label="Main menu">
+        <h2>Contents</h2>
+        <ul>
+            <li><a href="#me">Me</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#list">Table of Projects</a></li>
+            <li><a href="#Forms">Forms</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+    <section id="me">
+        <h2>About Me</h2>
+        <p>Hello. I am Daniel.</p>
+        <p>Developer in training with a passion for continuous learning. I'm passionate about technological evolution and personal growth.</p>
+        <p>I enjoy programming and transforming ideas into compelling visual experiences. I'm motivated by creating solutions that not only work, but are also beautiful.</p>
+        <p>More details about me.</p>
+        <img src="Daniel.jpg" alt="Photo of Daniel Ospina, web developer" width="300">
+        <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    
+    </section>
+    <section id="project">
+        <h2>Projects</h2>
+        <h3>Project 1: Portfolio Website</h3>
+        <p>This is my first project where I built a personal portfolio using only HTML.</p>
+        <img src="https://www.mentedidactica.com/wp-content/uploads/2018/06/aprender-a-programar.jpg" alt="Project" width="400">
+        <h3>Project 2: Multimedia</h3>
+        <p>This is my second project, where I showcase multimedia content that I enjoy.</p>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_mlwSyv60PBhn9PffKpHiEIvb79rNc3bD7Ku2ARgIlo7-ftRoCnLc9pm22m3-oOdQbrVLrCC2Cz_bHAU5cSp6Y2kfe05N9KgZq7OnmA8ftv8Nz2tozaWvoVSSbnaMlJMCMOArNCXtdAw/s640/1f416452-f076-4a06-96d8-d6bcb35fbd79.jpg" alt="Multimedia" width="400">
+        <br><br>
+
+        <h2>Table of Projects</h2>
+        <table id="list" style="border: 2px solid black; border-collapse: collapse; width: 100%; background-color: #f4f4f4;">
+            <caption style="border: 2px solid black;"><strong>Projects</strong></caption>
+            <tr>
+                <th style="border: 1px solid black; padding: 10px; text-align: center;">Project Name</th>
+                <th style="border: 1px solid black; padding: 10px; text-align: center;">Technologies Used</th>
+                <th style="border: 1px solid black; padding: 10px; text-align: center;">Link</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 10px; text-align: center;">Portfolio Website</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: center;">HTML</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: center;"><a href="portafolio_Daniel_Ospina.html">View Project</a></td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 10px; text-align: center;">Multimedia</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: center;">HTML</td>
+                <td style="border: 1px solid black; padding: 10px; text-align: center;"><a href="https://github.com/Daniels0809/HTMLS1/blob/main/Multimedia.html">Multimedia</a></td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <section id="Forms">
+        <h2>Let's keep in touch</h2>
+        <p>Feel free to leave your contact information and a message.</p>
+        <form name="formulario" action="" method="post">
+            <fieldset>
+                <legend>Contact Me</legend>
+                <label for="name">Name:</label>
+                <input placeholder="Name" type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input placeholder="Email" type="email" name="email" id="email" required>
+                <br>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea placeholder="Write your message here..." name="message" rows="4" required></textarea>
+                <br>
+                
+                <input type="submit" value="Send">
+            </fieldset>
+        </form>
+    </section>
+    <section id="profile">
+        <h3>My profile</h3>
+    <ul>
+        <li><a href="https://github.com/Daniels0809" target="_blank" rel="noopener noreferrer">Github</a></li>
+    </ul>
+    </section>
+</body>
+</html>
