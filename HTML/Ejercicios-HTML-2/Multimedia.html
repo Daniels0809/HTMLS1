@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mi pagina web</h1>
+    </header>
+    <nav role="navigation" aria-label="main menu" >
+        <h2>Contenido</h2>
+        <ul>
+            <li><a href="#Introduccion">Introduccion</a></li>
+            <li><a href="#Video">Video</a></li>
+            <li><a href="#Formulario">Formulario</a></li>
+            <li><a href="#Mapa">Mapa de Imagen</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Introduccion">
+            <article>
+                <h2>introduccion</h2>
+                <p>Esta es una introduccion a mi pagina, la cual tendra varias interacciones
+                    y funcionalidades.
+                </p>
+            </article>
+        </section>
+        <section id="Video">
+            <p>Aca un video</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SYT7G6QqTlg?si=jW34-ppu_6rhoyPj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="Formulario">
+            <h2>Llena el siguiente Formulario</h2>
+            <form name="formulario" action="" method="get">
+                <label for="nombre">Nombre: </label>
+                <input placeholder="Nombre" type="text" id="nombre" name="nombre" aria-required="true">
+                <br>
+                <label for="email">Email: </label>
+                <input placeholder="Email" type="email" name="email" id="email" aria-required="true">
+                <br>
+                <label for="edad">Edad: </label>
+                <input placeholder="Edad" type="number" name="edad" id="edad" aria-required="true">
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="Mapa">
+            <h2>Mapa de Imagen</h2>
+            <br>
+            <img width="500" src="https://img.remediosdigitales.com/beed5b/toby-price-ktm-dakar-2021/1366_521.jpg" usemap="#Rally-map" alt="Rally-Dakar">
+            <map name="Rally-map">
+                <area shape="circle" coords="500,500,10000" href="https://www.motorpasionmoto.com/off-road/rally-dakar-2021-previo" alt="Pagina de motos">
+            </map>            
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Todos los derechos reservados.</p>
+        <p>Contacto: <a href="https://github.com/Daniels0809">Mi github</a></p> 
+    </footer>
+</body>
+</html>
