@@ -1,0 +1,33 @@
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+input:focus{
+    border: 2px solid green;
+    outline: none;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+li:nth-child(3){
+    color: red;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: blue;
+    font-weight: bold;
+}
+
+.caja::before{
+    content: " ♦️";
+    color: red;
+}
+
+.caja::after{
+    content: "♣️";
+    color: rgb(78, 77, 77);
+}
